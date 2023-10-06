@@ -1,5 +1,5 @@
 const express = require('express');
-const router=express.routerouter();
+const router=express.Router();
 router.get('/List_Token', (req, res) => {
     res.send({data:'liquidity of all tokens'})
   })
